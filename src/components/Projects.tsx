@@ -63,106 +63,114 @@ const Projects = () => {
           <div className="w-full flex flex-col no-scrollbar gap-4 md:gap-8 justify-center">
             <div ref={(el) => { projectCardsRef.current[0] = el; }} className='flex flex-col md:flex-row gap-4 md:gap-8 justify-center'>
               <div className="h-full relative flex flex-col">
-                <SpotlightCard className="custom-spotlight-card p-6" spotlightColor="rgba(255, 255, 255, 0.2)">
-                  <div className="h-56 rounded-2xl">
-                    <img src={P1} alt="Project 1" className="w-full rounded-2xl h-full object-cover bg-zinc-800" />
-                  </div>
-                  <div className="flex flex-row">
-                    <div>
-                      <h1 className="text-2xl text-[#aaaaaa] font-medium  pt-4 pb-1 ">
-                        Air Quality Statistic
-                      </h1>
-                      <h1 className="lg:w-[20rem] text-xs">
-                        This project show the Air Quality using a SQL database
-                      </h1>
+                <a href="https://github.com/AdityaRaj-DE/Air-Quality-Statistic-Management-SQL-Project">
+                  <SpotlightCard className="custom-spotlight-card p-6" spotlightColor="rgba(255, 255, 255, 0.2)">
+                    <div className="h-56 rounded-2xl">
+                      <img src={P1} alt="Project 1" className="w-full rounded-2xl h-full object-cover bg-zinc-800" />
                     </div>
-                    <div className=' flex flex-row my-4 gap-2'>
-                      <div className='bg-[#222222] rounded-xl'>
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="size-12 p-2"> <path d="M24 12L18.3431 17.6569L16.9289 16.2426L21.1716 12L16.9289 7.75736L18.3431 6.34315L24 12ZM2.82843 12L7.07107 16.2426L5.65685 17.6569L0 12L5.65685 6.34315L7.07107 7.75736L2.82843 12ZM9.78845 21H7.66009L14.2116 3H16.3399L9.78845 21Z"></path> </svg>
+                    <div className="flex flex-row">
+                      <div>
+                        <h1 className="text-2xl text-[#aaaaaa] font-medium  pt-4 pb-1 ">
+                          Air Quality Statistic
+                        </h1>
+                        <h1 className="lg:w-[20rem] text-xs">
+                          This project show the Air Quality using a SQL database
+                        </h1>
                       </div>
-                      <div className='bg-[#222222] rounded-xl'>
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="size-12 p-2"> <path d="M16.0037 9.41421L7.39712 18.0208L5.98291 16.6066L14.5895 8H7.00373V6H18.0037V17H16.0037V9.41421Z"></path> </svg>
+                      <div className=' flex flex-row my-4 gap-2'>
+                        <div className='bg-[#222222] rounded-xl h-12 w-12'>
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="size-12 p-2"> <path d="M24 12L18.3431 17.6569L16.9289 16.2426L21.1716 12L16.9289 7.75736L18.3431 6.34315L24 12ZM2.82843 12L7.07107 16.2426L5.65685 17.6569L0 12L5.65685 6.34315L7.07107 7.75736L2.82843 12ZM9.78845 21H7.66009L14.2116 3H16.3399L9.78845 21Z"></path> </svg>
+                        </div>
+                        <div className='bg-[#222222] rounded-xl h-12 w-12'>
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="size-12 p-2"> <path d="M16.0037 9.41421L7.39712 18.0208L5.98291 16.6066L14.5895 8H7.00373V6H18.0037V17H16.0037V9.41421Z"></path> </svg>
+                        </div>
                       </div>
                     </div>
-                  </div>
-                </SpotlightCard>
+                  </SpotlightCard>
+                </a>
               </div>
               <div className="h-full relative flex flex-col">
-                <SpotlightCard className="custom-spotlight-card p-6" spotlightColor="rgba(255, 255, 255, 0.2)">
-                  <div className="h-56 rounded-2xl">
-                    <img src={P2} alt="Project 1" className="w-full rounded-2xl h-full object-cover bg-zinc-800" />
-                  </div>
-                  <div className="flex flex-row">
-                    <div>
-                      <h1 className="text-2xl text-[#aaaaaa] font-medium  pt-4 pb-1 ">
-                        AI Based chatting app
-                      </h1>
-                      <h1 className="lg:w-[20rem] text-xs">
-                        Collaboration chatting application with AI integration
-                      </h1>
+                <a href="https://github.com/AdityaRaj-DE/Moon-Ai-Based-chatting-application">
+                  <SpotlightCard className="custom-spotlight-card p-6" spotlightColor="rgba(255, 255, 255, 0.2)">
+                    <div className="h-56 rounded-2xl">
+                      <img src={P2} alt="Project 1" className="w-full rounded-2xl h-full object-cover bg-zinc-800" />
                     </div>
-                    <div className=' flex flex-row my-4 gap-2'>
-                      <div className='bg-[#222222] rounded-xl'>
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="size-12 p-2"> <path d="M24 12L18.3431 17.6569L16.9289 16.2426L21.1716 12L16.9289 7.75736L18.3431 6.34315L24 12ZM2.82843 12L7.07107 16.2426L5.65685 17.6569L0 12L5.65685 6.34315L7.07107 7.75736L2.82843 12ZM9.78845 21H7.66009L14.2116 3H16.3399L9.78845 21Z"></path> </svg>
+                    <div className="flex flex-row">
+                      <div>
+                        <h1 className="text-2xl text-[#aaaaaa] font-medium  pt-4 pb-1 ">
+                          AI Based chatting app
+                        </h1>
+                        <h1 className="lg:w-[20rem] text-xs">
+                          Collaboration chatting application with AI integration
+                        </h1>
                       </div>
-                      <div className='bg-[#222222] rounded-xl'>
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="size-12 p-2"> <path d="M16.0037 9.41421L7.39712 18.0208L5.98291 16.6066L14.5895 8H7.00373V6H18.0037V17H16.0037V9.41421Z"></path> </svg>
+                      <div className=' flex flex-row my-4 gap-2'>
+                        <div className='bg-[#222222] rounded-xl h-12 w-12'>
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="size-12 p-2"> <path d="M24 12L18.3431 17.6569L16.9289 16.2426L21.1716 12L16.9289 7.75736L18.3431 6.34315L24 12ZM2.82843 12L7.07107 16.2426L5.65685 17.6569L0 12L5.65685 6.34315L7.07107 7.75736L2.82843 12ZM9.78845 21H7.66009L14.2116 3H16.3399L9.78845 21Z"></path> </svg>
+                        </div>
+                        <div className='bg-[#222222] rounded-xl h-12 w-12'>
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="size-12 p-2"> <path d="M16.0037 9.41421L7.39712 18.0208L5.98291 16.6066L14.5895 8H7.00373V6H18.0037V17H16.0037V9.41421Z"></path> </svg>
+                        </div>
                       </div>
                     </div>
-                  </div>
-                </SpotlightCard>
+                  </SpotlightCard>
+                </a>
               </div>
             </div>
             <div ref={(el) => { projectCardsRef.current[1] = el; }} className='flex flex-col md:flex-row justify-center gap-4 md:gap-8'>
               <div className="h-full relative flex flex-col gap-8">
-                <SpotlightCard className="custom-spotlight-card p-6" spotlightColor="rgba(255, 255, 255, 0.2)">
-                  <div className="h-56 rounded-2xl">
-                    <img src={P3} alt="Project 1" className="w-full rounded-2xl h-full object-cover bg-zinc-800" />
-                  </div>
-                  <div className="flex flex-row">
-                    <div>
-                      <h1 className="text-2xl text-[#aaaaaa] font-medium  pt-4 pb-1 ">
-                        Notes App
-                      </h1>
-                      <h1 className="lg:w-[20rem] text-xs">
-                        Notes app to create, edit and delete notes
-                      </h1>
+                <a href="https://github.com/AdityaRaj-DE/Notes">
+                  <SpotlightCard className="custom-spotlight-card p-6" spotlightColor="rgba(255, 255, 255, 0.2)">
+                    <div className="h-56 rounded-2xl">
+                      <img src={P3} alt="Project 1" className="w-full rounded-2xl h-full object-cover bg-zinc-800" />
                     </div>
-                    <div className=' flex flex-row my-4 gap-2'>
-                      <div className='bg-[#222222] rounded-xl'>
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="size-12 p-2"> <path d="M24 12L18.3431 17.6569L16.9289 16.2426L21.1716 12L16.9289 7.75736L18.3431 6.34315L24 12ZM2.82843 12L7.07107 16.2426L5.65685 17.6569L0 12L5.65685 6.34315L7.07107 7.75736L2.82843 12ZM9.78845 21H7.66009L14.2116 3H16.3399L9.78845 21Z"></path> </svg>
+                    <div className="flex flex-row">
+                      <div>
+                        <h1 className="text-2xl text-[#aaaaaa] font-medium  pt-4 pb-1 ">
+                          Notes App
+                        </h1>
+                        <h1 className="lg:w-[20rem] text-xs">
+                          Notes app to create, edit and delete notes
+                        </h1>
                       </div>
-                      <div className='bg-[#222222] rounded-xl'>
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="size-12 p-2"> <path d="M16.0037 9.41421L7.39712 18.0208L5.98291 16.6066L14.5895 8H7.00373V6H18.0037V17H16.0037V9.41421Z"></path> </svg>
+                      <div className=' flex flex-row my-4 gap-2'>
+                        <div className='bg-[#222222] rounded-xl h-12 w-12'>
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="size-12 p-2"> <path d="M24 12L18.3431 17.6569L16.9289 16.2426L21.1716 12L16.9289 7.75736L18.3431 6.34315L24 12ZM2.82843 12L7.07107 16.2426L5.65685 17.6569L0 12L5.65685 6.34315L7.07107 7.75736L2.82843 12ZM9.78845 21H7.66009L14.2116 3H16.3399L9.78845 21Z"></path> </svg>
+                        </div>
+                        <div className='bg-[#222222] rounded-xl h-12 w-12'>
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="size-12 p-2"> <path d="M16.0037 9.41421L7.39712 18.0208L5.98291 16.6066L14.5895 8H7.00373V6H18.0037V17H16.0037V9.41421Z"></path> </svg>
+                        </div>
                       </div>
                     </div>
-                  </div>
-                </SpotlightCard>
+                  </SpotlightCard>
+                </a>
               </div>
               <div className="h-full relative flex flex-col">
-                <SpotlightCard className="custom-spotlight-card p-6" spotlightColor="rgba(255, 255, 255, 0.2)">
-                  <div className="h-56 rounded-2xl">
-                    <img src={P4} alt="Project 1" className="w-full rounded-2xl h-full object-cover bg-zinc-800" />
-                  </div>
-                  <div className="flex flex-row">
-                    <div>
-                      <h1 className="text-2xl text-[#aaaaaa] font-medium  pt-4 pb-1 ">
-                        Numbly Game
-                      </h1>
-                      <h1 className="lg:w-[20rem] text-xs">
-                        It is a Number gessing game just like Wordly a word gussing game
-                      </h1>
+                <a href="https://github.com/AdityaRaj-DE/Numbly_A_Number_Game">
+                  <SpotlightCard className="custom-spotlight-card p-6" spotlightColor="rgba(255, 255, 255, 0.2)">
+                    <div className="h-56 rounded-2xl">
+                      <img src={P4} alt="Project 1" className="w-full rounded-2xl h-full object-cover bg-zinc-800" />
                     </div>
-                    <div className=' flex flex-row my-4 gap-2'>
-                      <div className='bg-[#222222] rounded-xl'>
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="size-12 p-2"> <path d="M24 12L18.3431 17.6569L16.9289 16.2426L21.1716 12L16.9289 7.75736L18.3431 6.34315L24 12ZM2.82843 12L7.07107 16.2426L5.65685 17.6569L0 12L5.65685 6.34315L7.07107 7.75736L2.82843 12ZM9.78845 21H7.66009L14.2116 3H16.3399L9.78845 21Z"></path> </svg>
+                    <div className="flex flex-row">
+                      <div>
+                        <h1 className="text-2xl text-[#aaaaaa] font-medium  pt-4 pb-1 ">
+                          Numbly Game
+                        </h1>
+                        <h1 className="lg:w-[20rem] text-xs">
+                          It is a Number gessing game just like Wordly a word gussing game
+                        </h1>
                       </div>
-                      <div className='bg-[#222222] rounded-xl'>
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="size-12 p-2"> <path d="M16.0037 9.41421L7.39712 18.0208L5.98291 16.6066L14.5895 8H7.00373V6H18.0037V17H16.0037V9.41421Z"></path> </svg>
+                      <div className=' flex flex-row my-4 gap-2'>
+                        <div className='bg-[#222222] rounded-xl h-12 w-12'>
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="size-12 p-2"> <path d="M24 12L18.3431 17.6569L16.9289 16.2426L21.1716 12L16.9289 7.75736L18.3431 6.34315L24 12ZM2.82843 12L7.07107 16.2426L5.65685 17.6569L0 12L5.65685 6.34315L7.07107 7.75736L2.82843 12ZM9.78845 21H7.66009L14.2116 3H16.3399L9.78845 21Z"></path> </svg>
+                        </div>
+                        <div className='bg-[#222222] rounded-xl h-12 w-12'>
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="size-12 p-2"> <path d="M16.0037 9.41421L7.39712 18.0208L5.98291 16.6066L14.5895 8H7.00373V6H18.0037V17H16.0037V9.41421Z"></path> </svg>
+                        </div>
                       </div>
                     </div>
-                  </div>
-                </SpotlightCard>
+                  </SpotlightCard>
+                </a>
               </div>
             </div>
 
