@@ -1,6 +1,4 @@
-/*
-	Installed from https://reactbits.dev/ts/tailwind/
-*/
+
 
 import React, { useRef, useLayoutEffect, useState } from "react";
 import {
