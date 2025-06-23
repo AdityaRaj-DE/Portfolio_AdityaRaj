@@ -1,5 +1,3 @@
-
-
 import React, { useRef, useLayoutEffect, useState } from "react";
 import {
   motion,
@@ -123,9 +121,10 @@ export const ScrollVelocity: React.FC<ScrollVelocityProps> = ({
     });
 
     const directionFactor = useRef<number>(1);
-    useAnimationFrame((delta) => {
+    useAnimationFrame((t,delta) => {
+      void t; // Mark 't' as intentionally unused to avoid linter error
       let moveBy = directionFactor.current * baseVelocity * (delta / 1000);
-
+      
       if (velocityFactor.get() < 0) {
         directionFactor.current = -1;
       } else if (velocityFactor.get() > 0) {
