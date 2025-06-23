@@ -46,7 +46,6 @@ const LoadingScreen = ({ onLoadingComplete }: { onLoadingComplete: () => void })
           style={{ width: `${progress}%` }}
         />
       </div>
-      {/* <div className="text-xl text-[#888888] mt-4">{progress}%</div> */}
     </div>
   );
 };

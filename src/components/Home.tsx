@@ -3,12 +3,8 @@ import gsap from 'gsap';
 import ShinyText from '../blocks/TextAnimations/ShinyText/ShinyText';
 import SpotlightCard from '../blocks/Components/SpotlightCard/SpotlightCard';
 
-
-
-// import MagnetLines from './MagnetLines';
 const Home = () => {
   const homeRef = useRef<HTMLDivElement>(null);
-  // const linesRef = useRef<HTMLDivElement>(null);
   const textRef = useRef<HTMLDivElement>(null);
   const quoteRef = useRef<HTMLDivElement>(null);
   const helloRef = useRef<HTMLHeadingElement>(null);

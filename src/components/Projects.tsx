@@ -52,11 +52,6 @@ const Projects = () => {
 
   return (
     <div ref={containerRef} className="min-h-[60rem] flex flex-col md:flex-row relative px-2 sm:px-4 md:px-8 py-6 md:py-8">
-      {/* <div className="w-screen h-0.5 top-37 absolute bg-[#444444]"></div>
-      <div className="w-screen h-0.5 bottom-26 absolute bg-[#444444]"></div>
-      <div className="w-0.5 h-screen left-63 absolute bg-[#444444]"></div>
-      <div className="w-0.5 h-[9.28rem] right-63 absolute bg-[#444444]"></div>
-      <div className="w-0.5 h-[31rem] top-37 right-60 absolute bg-[#444444]"></div> */}
       <div className="w-full flex flex-col gap-4 md:gap-8">
         <div className="text-center">
           <div ref={titleRef} className="w-full py-4 ">

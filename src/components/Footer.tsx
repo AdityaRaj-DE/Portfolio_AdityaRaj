@@ -2,7 +2,6 @@ import { useEffect, useRef } from "react";
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
-// Register ScrollTrigger plugin
 gsap.registerPlugin(ScrollTrigger);
 
 const Footer = () => {
@@ -66,10 +65,6 @@ const Footer = () => {
             </p>
           </div>
 
-          {/* Center - Social Links */}
-          
-
-          {/* Right side - Copyright */}
           <div className="text-center md:text-right">
             <p ref={copyrightRef} className="text-[#666666] text-xs md:text-sm">
               © {currentYear} Aditya Raj. All rights reserved.
@@ -80,12 +75,10 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Bottom divider */}
         <div className="mt-8 pt-8 border-t border-[#222222]">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-2 md:space-y-0">
             <div className="text-[#666666] text-[10px] md:text-xs">
-              {/* <span className="mr-4">Privacy Policy</span>
-              <span>Terms of Service</span> */}
+              
             </div>
             <div className="text-[#666666] text-[10px] md:text-xs">
               Made with ❤️ in India
